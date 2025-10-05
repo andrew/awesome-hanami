@@ -1,4 +1,4 @@
-# Awesome Hanami [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Hanami [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A collection of awesome ruby gems and projects for hanami development.
 
 The goal is to help every hanami developer to build an awesome product/service.
@@ -34,7 +34,7 @@ The goal is to help every hanami developer to build an awesome product/service.
 * [hanami-rodauth](https://github.com/davydovanton/hanami-rodauth) - Rodauth wrapper for hanami apps
 * [hanami-fumikiri](https://github.com/theCrab/hanami-fumikiri) - JWT authentication wrapper for hanami apps
 * [tachiban](https://github.com/sebastjan-hribar/tachiban) - Authentication with bcrypt for Hanami apps
-* [omniauth-hanami](https://github.com/katafrakt/omniauth-hanami) – Allows to use Hanami repository as OAuth provider (similar to [omniauth-identity](https://github.com/intridea/omniauth-identity))
+* [omniauth-hanami](https://github.com/katafrakt/omniauth-hanami) – Allows to use Hanami repository as OAuth provider (similar to [omniauth-identity](https://github.com/omniauth/omniauth-identity))
 * [hanami-id](https://github.com/leemour/hanami_id) - Large authentication library, with generators
 
 ### Authorization
@@ -51,7 +51,7 @@ The goal is to help every hanami developer to build an awesome product/service.
 ### Testing
 * [rspec-hanami](https://github.com/davydovanton/rspec-hanami) - RSpec Matchers for Hanami
 * [shoulda-hanami](https://github.com/mcorp/shoulda-hanami) - Making tests easy on the fingers and eyes, but on hanami (old shoulda-lotus)
-* [hanami-fabrication](https://github.com/jodosha/hanami-fabrication) - Utility to easily integrate [Fabrication](https://www.fabricationgem.org/) gem and Hanami
+* [hanami-fabrication](https://github.com/jodosha/hanami-fabrication) - Utility to easily integrate [Fabrication](https://fabricationgem.org/) gem and Hanami
 
 ### Database
 * [rom_sql_graph](https://github.com/davydovanton/rom_sql_graph) - DB (sql) association graph for hanami and rom projects
@@ -63,19 +63,19 @@ The goal is to help every hanami developer to build an awesome product/service.
 * [hanami-pagination](https://github.com/davydovanton/hanami-pagination) - Pagination gem for your hanami applications. Based on ROM::Pagination plugin.
 
 ### Events
-* [hanami-events-cloud_pubsub](https://github.com/adHawk/hanami-events-cloud_pubsub) - A hanami-events adapter for Google Cloud Pub/Sub.
+* [hanami-events-cloud_pubsub](https://github.com/broadlume/hanami-events-cloud_pubsub) - A hanami-events adapter for Google Cloud Pub/Sub.
 
 ### CLI
 * [hanami-scaffold](https://github.com/davydovanton/hanami-scaffold) - Make hanami scaffolds faster.
 * [hanami-zsh](https://github.com/davydovanton/hanami-zsh) - Zsh plugin for hanami projects.
 
 ### Building APIs
-* [jsonapi-hanami](http://jsonapi-rb.org) - Efficiently and conveniently build [JSON API](http://jsonapi.org)-compliant APIs with Hanami.
+* [jsonapi-hanami](https://jsonapi-rb.org/) - Efficiently and conveniently build [JSON API](https://jsonapi.org/)-compliant APIs with Hanami.
 * [hanami-jbuilder](https://github.com/vladfaust/hanami-jbuilder) - Support for rendering JBuilder templates for Hanami apps
 * [hanami-serializer](https://github.com/davydovanton/hanami-serializer) - Serializer library for hanami applications
 
 ### API Documentation
-* [had](https://github.com/nsheremet/had) - Hanami API Documentation
+* [had](https://github.com/gdwrd/had) - Hanami API Documentation
 
 ### Deploy
 * [mina-hanami](https://github.com/mgrachev/mina-hanami) - [Mina](https://github.com/mina-deploy/mina) plugin for Hanami.
@@ -90,29 +90,28 @@ The goal is to help every hanami developer to build an awesome product/service.
 * [Vim Minispec](https://github.com/sovetnik/vim-minispec) - plugin runs your Gem or Hanami Minitest specs and displays the results in Vim quickfix.
 
 ## Vanilla Libraries and Hanami
-* [omniauth](https://github.com/intridea/omniauth) - [Hanami with OAuth](http://codetunes.com/2016/hanami-with-oauth/)
-* [Sidekiq](http://sidekiq.org) - [From Rails to Hanami Part 3](http://rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext), [Use Sidekiq With Hanami](http://www.strauss.io/blog/2016-use-sidekiq-with-hanami.html)
-* [I18n](https://github.com/svenfuchs/i18n) - [From Rails to Hanami Part 3](http://rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext)
-* [Sequel plugins](http://sequel.jeremyevans.net/plugins.html) - [From Rails to Hanami Part 3](http://rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext)
-* [letter_opener](https://github.com/ryanb/letter_opener) - [Preview hanami emails in browser](http://blog.davydovanton.com/2016/05/21/preview-hanami-emails-in-browser/)
+* [omniauth](https://github.com/omniauth/omniauth) - Authentication system for Rack applications
+* [Sidekiq](https://sidekiq.org/) - [From Rails to Hanami Part 3](https://blog.rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext), [Use Sidekiq With Hanami](https://www.strauss.io/blog/2016-use-sidekiq-with-hanami.html)
+* [I18n](https://github.com/ruby-i18n/i18n) - [From Rails to Hanami Part 3](https://blog.rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext)
+* [Sequel plugins](http://sequel.jeremyevans.net/plugins.html) - [From Rails to Hanami Part 3](https://blog.rpanachi.com/2016/04/25/from-rails-to-hanami-part3-sidekiq-workers-i18n-timezone-issues-core-ext)
+* [letter_opener](https://github.com/ryanb/letter_opener) - Preview emails in the browser instead of sending them
 * [mongoid](https://github.com/mongodb/mongoid) - [github](https://github.com/michalvalasek/hanami-mongoid)
-* [Trailblazer](https://github.com/apotonick/trailblazer) - [Hanami with Trailblazer](https://github.com/apotonick/gemgem-hanami)
+* [Trailblazer](https://github.com/trailblazer/trailblazer) - [Hanami with Trailblazer](https://github.com/apotonick/gemgem-hanami)
 * [Factory Bot](https://github.com/thoughtbot/factory_bot) - [Hanami with Factory Bot](https://gist.github.com/rafaels88/8437edababcf38ee193b2ba0265e78b9)
 
 ## Hanami Project List
 ### Closed Source
-* [loan application platform](http://creditas.com.br) - A Brazilian startup for credit loan using a car or house as a guarantee.
+* [loan application platform](https://www.creditas.com/) - A Brazilian startup for credit loan using a car or house as a guarantee.
 
 ### Open Source
 * [cookie_box](https://github.com/davydovanton/cookie_box) - Follow and control issues from several repositories from one place.
-* [OSSBoard](http://www.ossboard.org) - Simple way to connect developers and oss maintainers ([Sources](https://github.com/davydovanton/ossboard)).
-* [contributors.hanamirb.org](http://contributors.hanamirb.org) - All hanami contributors in one place ([Sources](https://github.com/hanami/contributors)).
-http://github.com/makedecision-org/core
-* [makedecision](http://github.com/makedecision-org/core) - Make decision faster.
-* [app.dartboard.io](http://app.dartboard.io) - Online darts scorer app built with Hanami([Sources](https://github.com/stravid/datsu-api))
-* [pinfluence](https://github.com/prosi-org/pinfluence) - All world influencers in a map
-* [scripta.io](http://www.scripta.io/home) - A platform for creating and sharing documents on the web ([Sources](https://github.com/jxxcarlson/noteshare)).
-* [Flashcard Genius](http://flashcard-genius.com) - Create, print and learn flashcards ([Sources](https://github.com/Bajena/flashcard-genius))
+* [OSSBoard](https://github.com/ossboard-org/ossboard) - Simple way to connect developers and oss maintainers.
+* [contributors](https://github.com/hanami/contributors) - All hanami contributors in one place.
+* [makedecision](https://github.com/makedecision-org/core) - Make decision faster.
+* [app.dartboard.io](https://app.dartboard.io/) - Online darts scorer app built with Hanami
+* [pinfluence](https://github.com/rafaels88/pinfluence) - All world influencers in a map
+* [scripta.io](https://www.scripta.io/home) - A platform for creating and sharing documents on the web.
+* [Flashcard Genius](https://github.com/Bajena/flashcard-genius) - Create, print and learn flashcards
 
 ### Play/Pet projects
 * [upment-hanami](https://github.com/AlexanderMint/upment-hanami) - App on Hanami: JWT, GraphQL, RSpec and [REACT client](https://github.com/AlexanderMint/upment-client)
@@ -120,13 +119,13 @@ http://github.com/makedecision-org/core
 * [hanami-jwt-example](https://github.com/nickgnd/hanami-jwt-example) - A simple JSON API web application built with Hanami which provides jwt-authentication, password encryption and CORS support.
 * [repressed_museum](https://github.com/vasspilka/repressed_museum) - A simple mostly static website, features basic i18n and docker integration
 * [bookshelf-delivery-example](https://github.com/bruz/bookshelf-delivery-example) - An example app with a web GUI, API and CLI using shared interactors.
-* [hanami-chat-example](https://github.com/nickgnd/hanami-chat-example) - A basic chat application built with Hanami and [LiteCable](https://github.com/palkan/litecable) (compatible with [AnyCable](http://anycable.io/))
+* [hanami-chat-example](https://github.com/nickgnd/hanami-chat-example) - A basic chat application built with Hanami and [LiteCable](https://github.com/palkan/litecable) (compatible with [AnyCable](https://anycable.io/))
 * [Deutsch](https://github.com/mjacobus/deutsch) - prototype tool for learning German.
 * [Burn My Fat!](https://github.com/burn-my-fat/web) (ru) – Backend for a mobile application that will help you make your body more beautiful. [YouTube](https://www.youtube.com/channel/UCDAXAwUlu-lIbjRXCUtc6oA)
 * [hanami-realworld-example-app](https://github.com/blrB/hanami-realworld-example-app) - Hanami codebase containing real world examples (CRUD, auth, tests etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
 
 ## Useful Links
-* [Community page on the official site](http://hanamirb.org/community/)
+* [Community page on the official site](https://hanamirb.org/community/)
 * [Hanami Mastery](https://hanamimastery.com) - Articles and Video tutorials, featuring Hanami, its dependencies (ROM-RB, DRY-RB) and all great ruby projects that may be integrated with Hanami.
 
 ### Blog Posts
@@ -134,8 +133,8 @@ http://github.com/makedecision-org/core
 * [Livereload and Hanami](https://defman.me/blog/hanami-love-livereload/)
 * [Deploying Hanami web application with Puma, Nginx and PostgreSQL using Docker](https://sebastjan-hribar.github.io/programming/2018/07/19/hanami-app-deployment-example.html)
 * [Getting Started with Hanami and GraphQL](https://blog.simplificator.com/2016/12/07/getting-started-with-hanami-and-graphql/)
-* [IoT Saga - My first (for development) setup for a Hanami application](http://gabrielmalakias.com.br/hanami/iot/docker/2017/02/14/iot-saga-my-setup-for-a-hanami-application.html)
-* [Websockets! Connecting LiteCable to Hanami](http://gabrielmalakias.com.br/ruby/hanami/iot/2017/05/26/websockets-connecting-litecable-to-hanami.html)
+* [IoT Saga - My first (for development) setup for a Hanami application](https://gabrielmalakias.com.br/hanami/iot/docker/2017/02/14/iot-saga-my-setup-for-a-hanami-application.html)
+* [Websockets! Connecting LiteCable to Hanami](https://gabrielmalakias.com.br/ruby/hanami/iot/2017/05/26/websockets-connecting-litecable-to-hanami.html)
 
 ### User Groups
 * [São Paulo, Brasil](https://twitter.com/hanamirb_sp) - Grupo de usuários Hanami-rb de São Paulo.
